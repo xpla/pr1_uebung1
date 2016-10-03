@@ -3,7 +3,12 @@ package pr1_uebung1;
 public class Temperatur {
 
 	public static double celsius2Fahrenheit(double celsius) {
-		double Fahrenheit = 9/5;
+		
+		// NOTE	When using type "double" also keep in mind to set a comma value
+		// INFO Calculating degree Fahrenheit of a given degree Celsius
+		double Fahrenheit = (9.0/5.0) * celsius + 32;
+		
+		// INFO Return the calculation
 		return Fahrenheit;
 	}
 	
